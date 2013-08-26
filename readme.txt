@@ -12,19 +12,16 @@ Titre
 
 	- ?
 
-Équipe de Projet Web
+Équipe de Projet Web et rôle
 
+	- François Boivin
+		- Directeur Artistique
+	
 	- David Patenaud
+		- Directeur technique
+
+	- Roudner
+		- Responsable de l’expérience utilisateur
+	
 	- Gabriel Santerre
-	- ?
-
-Responsabilités
-
-	- David Patenaud
-		- ?
-
-	- Gabriel Santerre
-		- ?
-
-	- ?
-		- ?
+		- Chargé de projet
