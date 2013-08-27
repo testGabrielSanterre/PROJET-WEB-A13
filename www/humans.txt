@@ -1,15 +1,30 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* ÉQUIPE */
+                            
+	Directeur Artistique : François Boivin
+	Twitter: ?
+	De: ?, Québec, Canada
 
-# TEAM
+	Directeur technique : David Patenaud
+	Twitter: ?
+	De: Terrebonne (Secteur Laplaine), Québec, Canada
 
-    <name> -- <role> -- <twitter>
+	Responsable de l’expérience utilisateur : Roudner
+	Twitter: ?
+	De: ?, Québec, Canada
 
-# THANKS
+	Chargé de projet : Gabriel Santerre
+	Twitter: @gabrielsanterre
+	De: Mascouche, Québec, Canada
 
-    <name>
+/* REMERCIEMENT */
 
-# TECHNOLOGY COLOPHON
+    Gabarit de départ: H5BP
+    Site: html5boilerplate.com
+    Twitter: @H5BP
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+/* SITE */
+
+	Dernière mise à jour: 26/08/2013                          
+	Standard: HTML5, CSS3    
+	Composents: Modernizr, jQuery, etc.
+	Logiciel: Sublime Text
