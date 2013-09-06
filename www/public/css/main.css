@@ -125,7 +125,12 @@ textarea {
 
     .side-nav-btn{
         float: left;
-        padding: 17px 15px 17px 15px;
+        padding: 7px 7px;
+        margin: 10px 8px;
+    }
+
+    .side-nav-btn:hover {
+        background-color: #09C;
     }
 
     .librexpo-title{
