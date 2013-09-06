@@ -1,4 +1,4 @@
-<div id="gallery_accueil" class="gallery autoplay items-3">
+<div id="gallery-home" class="gallery autoplay items-3">
 			
 	<div id="item-1" class="control-operator"></div>
 	<div id="item-2" class="control-operator"></div>

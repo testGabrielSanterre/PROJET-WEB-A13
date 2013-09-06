@@ -1,9 +1,9 @@
 @extends('template')
 
-@section('content')
-	<div id="content">	
+@section('main')
+	<div class="main-container">	
 		Acceuil
-		@include('slider_accueil')
+		@include('slider-accueil')
 	</div>
 	@parent
 @stop

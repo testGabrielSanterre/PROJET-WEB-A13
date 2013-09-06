@@ -6,12 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>@yield('title')</title>
-        <meta name="description" content="@yield('description')">
+        <title>@yield('title','LIBREXPO')</title>
+        <meta name="description" content="@yield('description','LIBREXPO est un site pour partager les projets scolaires du collège de maisonneuve')">
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/gallery.theme.css">
         <link rel="stylesheet" href="css/gallery.min.css">
         <link rel="stylesheet" href="css/normalize.css">
