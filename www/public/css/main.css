@@ -165,6 +165,10 @@ textarea {
         width:180px;
         height:24px;
     }
+
+    .search-field:focus {
+        outline-width: 0px;
+    }
      
     .search-btn {
         border:0px; /*important*/
