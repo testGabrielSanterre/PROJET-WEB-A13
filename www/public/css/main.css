@@ -100,9 +100,13 @@ textarea {
     header{
         width: 100%;
         height: 50px;
+        position: fixed;
+        z-index: 100000;
         background: #00bce8;
         color: #FFF;
-        text-align:center
+        text-align:center;
+        top: 0px;
+        left:0px;
     }
 
     .right {
@@ -118,15 +122,24 @@ textarea {
         display:inline-block;
     }
 
+    .no-pm{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-container{
+        margin-top: 50px;
+    }
+
     .side-nav-header{
-        width: 170px;
+        width: 200px;
         text-align: left;
     }
 
     .side-nav-btn{
         float: left;
-        padding: 7px 7px;
-        margin: 10px 8px;
+        padding: 17px 15px;
+        /*margin: 10px 8px;*/
     }
 
     .side-nav-btn:hover {
@@ -135,12 +148,17 @@ textarea {
 
     .librexpo-title{
         display: block;
-        float: left;
-        padding: 0;
+        padding: 0px 15px;
         margin: 0;
         font-size: 24px;
         height: 50px;
         line-height: 50px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .librexpo-title:hover{
+        color: #cc6600;
     }
 
     .search-field-wrapper{
@@ -258,11 +276,11 @@ ul > li {
 ul li a {
     display: block;
     text-decoration: none;
-    -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
-    -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
-    -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
-    -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
-    transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -moz-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -ms-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -o-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -webkit-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     white-space: normal;
 }
 
@@ -276,12 +294,11 @@ ul > li > a {
 }
 
 ul > li:hover > a, ul > a:hover {
-    background-color: #F55856;
-    color: #FFFFFF;
+    background-color: #09C;
 }
 
 ul li.active > a {
-    background-color: #333333;
+    background-color: #09C;
     color: #FFFFFF;
 }
 
