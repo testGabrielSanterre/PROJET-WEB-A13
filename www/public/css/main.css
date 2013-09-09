@@ -163,6 +163,7 @@ textarea {
     }
 
     .side-nav-header-btn:hover {
+        cursor: pointer;
         background-color: #09C;
     }
 
