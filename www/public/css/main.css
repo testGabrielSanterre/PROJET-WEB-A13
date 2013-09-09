@@ -94,7 +94,7 @@ textarea {
    ========================================================================== */
 
     #gallery-home{
-        height: 300px;
+        height: 250px;
     }
 
     header{
@@ -127,44 +127,73 @@ textarea {
         margin: 0;
     }
 
-    .main-container{
-        margin-top: 50px;
+    .main-align{
+        background-color: transparent;
+    }
+
+    .left.main-align{
+        width: 188px;
+        height: 50px;
+    }
+
+    .right.main-align{
+        width: 240px;
+        height: 50px;
+    }
+
+    .main{
+        text-align: left;
+        padding-top: 50px;
+        width: 614px;
+    }
+
+    .main-wrapper{
+        text-align: center;
     }
 
     .side-nav-header{
-        width: 200px;
+        width: 188px;
         text-align: left;
     }
 
-    .side-nav-btn{
+    .side-nav-header-btn{
         float: left;
         padding: 17px 15px;
         /*margin: 10px 8px;*/
     }
 
-    .side-nav-btn:hover {
+    .side-nav-header-btn:hover {
         background-color: #09C;
     }
 
     .librexpo-title{
-        display: block;
-        padding: 0px 15px;
+        display: inline;
+        text-align: left;
+        padding: 8px 15px 9px 15px;
         margin: 0;
         font-size: 24px;
-        height: 50px;
         line-height: 50px;
         color: #fff;
         text-decoration: none;
     }
 
+    .xpo{
+        text-align: left;
+    }
+
+    .librexpo-title-wrapper{
+        margin: 0;
+        text-align: center;
+    }
+
     .librexpo-title:hover{
-        color: #cc6600;
+        background-color: #09C;
     }
 
     .search-field-wrapper{
         margin: 13px 13px 13px 13px;
         height: 24px;
-        width: 216px;
+        width: 214px;
         font-size: 12px;
         font-family: 'Open Sans' !important;
         font-style: normal;
@@ -193,6 +222,14 @@ textarea {
         background-color:transparent; /*important*/
         padding: 6px 6px 6px 0px;
         float: right;
+    }
+
+    .side-nav-wrapper{
+        width: 188px;
+        height: 100%;
+        background-color:  #333;
+        z-index: 9999;
+        position: fixed;
     }
 
     .Open-Sans-normal-700 {
@@ -266,11 +303,6 @@ ul ul.subs {
 ul > li {
     float: left;
     text-align: left;
-    -moz-transition: all 300ms ease-in-out 0s;
-    -ms-transition: all 300ms ease-in-out 0s;
-    -o-transition: all 300ms ease-in-out 0s;
-    -webkit-transition: all 300ms ease-in-out 0s;
-    transition: all 300ms ease-in-out 0s;
 }
 
 ul li a {
@@ -282,6 +314,14 @@ ul li a {
     -webkit-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     white-space: normal;
+}
+
+.librexpo-title, .side-nav-header-btn{
+    -moz-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -ms-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -o-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -webkit-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
 }
 
 ul > li > a {
@@ -297,9 +337,8 @@ ul > li:hover > a, ul > a:hover {
     background-color: #09C;
 }
 
-ul li.active > a {
+header .active, header .active > a {
     background-color: #09C;
-    color: #FFFFFF;
 }
 
 

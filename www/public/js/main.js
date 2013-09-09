@@ -16,7 +16,6 @@ function inputDefaultValueGestion(input){
 			$(this).val(defaultValue);
 		}
 	});
-	
 }
 
 // Ajoute de la function inputDefaultValueGestion a tout les input de text et les textarea
