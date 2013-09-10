@@ -22,3 +22,17 @@ function inputDefaultValueGestion(input){
 $('input:text,textarea').each(function(){
 	inputDefaultValueGestion(this);
 });
+
+$(".side-nav-header-btn").click(function(){
+	if ($(".side-nav-wrapper").css("left")=="-188px") {
+		$(".side-nav-header-background").animate({width:'188px'},400);
+		$(".side-nav-wrapper").animate({left:'0px'},400);
+		if($(this).hasClass('active')==0){$(this).addClass('active')};
+		if($('.librexpo-title').hasClass('active')==0){$('.librexpo-title').addClass('active')};
+	}else if ($(".side-nav-wrapper").css("left")=="0px"){
+		$(".side-nav-header-background").animate({width:'0px'},400);
+		$(".side-nav-wrapper").animate({left:'-188px'},400);
+		if($(this).hasClass('active')){$(this).removeClass('active')};
+		if($('.librexpo-title').hasClass('active')){$('.librexpo-title').removeClass('active')};
+	}
+});

@@ -122,6 +122,14 @@ textarea {
         display:inline-block;
     }
 
+    .unselectable {
+        -WEBKIT-USER-SELECT: NONE; /* SAFARI, CHROME */
+        -KHTML-USER-SELECT: NONE; /* KONQUEROR */
+        -MOZ-USER-SELECT: NONE; /* FIREFOX */
+        -MS-USER-SELECT: NONE; /* IE */
+        USER-SELECT: NONE; /* CSS3 */
+    }
+
     .no-pm{
         padding: 0;
         margin: 0;
@@ -151,15 +159,39 @@ textarea {
         text-align: center;
     }
 
+    .side-nav-header-background{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 50px;
+        width: 0px;
+        background-color:  #09C;
+    }
+
     .side-nav-header{
         width: 188px;
+        height: 50px;
         text-align: left;
     }
 
     .side-nav-header-btn{
-        float: left;
-        padding: 17px 15px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/side-nav-header-btn.png');
+        background-repeat:no-repeat;
+        background-position: center;
         /*margin: 10px 8px;*/
+    }
+
+    .side-nav-header-btn.active:hover{
+        background-image: url('../img/side-nav-header-btn-dark.png');
+    }
+    .librexpo-title.active:hover{
+        color: #069;
+        background-color: transparent;
     }
 
     .side-nav-header-btn:hover {
@@ -168,9 +200,12 @@ textarea {
     }
 
     .librexpo-title{
+        position: absolute;
+        top: 0px;
+        left: 50px;
         display: inline;
         text-align: left;
-        padding: 8px 15px 9px 15px;
+        padding: 0px 15px;
         margin: 0;
         font-size: 24px;
         line-height: 50px;
@@ -231,6 +266,23 @@ textarea {
         background-color:  #333;
         z-index: 9999;
         position: fixed;
+        left: -188px;
+        top: 0px;
+        padding-top: 50px;
+    }
+
+    .side-nav-login{
+        margin-top: 50px;
+        width: 188px;
+    }
+
+    .side-nav-login input{
+        width: 158px;
+        margin: 0px 15px;
+        padding: 0px;
+        border:0px; /*important*/
+        background-color: #09F; /*important*/
+        color: #069;
     }
 
     .Open-Sans-normal-700 {
@@ -309,20 +361,20 @@ ul > li {
 ul li a {
     display: block;
     text-decoration: none;
-    -moz-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    -ms-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    -o-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    -webkit-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -moz-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+    -ms-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+    -o-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+    -webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+    transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
     white-space: normal;
 }
 
 .librexpo-title, .side-nav-header-btn{
-    -moz-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    -ms-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    -o-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    -webkit-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
-    transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
+    -moz-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
+    -ms-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
+    -o-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
+    -webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
+    transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
 }
 
 ul > li > a {
@@ -338,8 +390,9 @@ ul > li:hover > a, ul > a:hover {
     background-color: #09C;
 }
 
-header .active, header .active > a {
+ul > li.active > a, ul > a.active {
     background-color: #09C;
+    color: #069;
 }
 
 
