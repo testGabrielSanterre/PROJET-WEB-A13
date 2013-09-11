@@ -1,10 +1,9 @@
-THEY SEE ME ROLLING
-Projet Web de la session d'automne 2013 - Plate-forme de diffusion d'oeuvres étudiants à Maisonneuve
+Projet Web de la session d'automne 2013 - Plate-forme de diffusion d'oeuvres ï¿½tudiants ï¿½ Maisonneuve
 
 1-4-2
 
 4 heures de travail en classe
-2 heures de travail à la Maison
+2 heures de travail ï¿½ la Maison
 
 Par semaine
 
@@ -12,16 +11,16 @@ Titre
 
 	- ?
 
-Équipe de Projet Web et rôle
+ï¿½quipe de Projet Web et rï¿½le
 
-	- François Boivin
+	- Franï¿½ois Boivin
 		- Directeur Artistique
 	
 	- David Patenaud
 		- Directeur technique
 
 	- Roudner
-		- Responsable de l’expérience utilisateur
+		- Responsable de lï¿½expï¿½rience utilisateur
 	
 	- Gabriel Santerre
-		- Chargé de projet
+		- Chargï¿½ de projet
