@@ -13,14 +13,14 @@ Titre
 
 �quipe de Projet Web et r�le
 
-	- Fran�ois Boivin
-		- Directeur Artistique
-	
-	- David Patenaud
-		- Directeur technique
+- Fran�ois Boivin
+	- Directeur Artistique
 
-	- Roudner
-		- Responsable de l�exp�rience utilisateur
-	
-	- Gabriel Santerre
-		- Charg� de projet
+- David Patenaud
+	- Directeur technique
+
+- Roudner
+	- Responsable de l�exp�rience utilisateur
+
+- Gabriel Santerre
+	- Charg� de projet
